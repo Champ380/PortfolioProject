@@ -1,0 +1,236 @@
+/*BODY*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: black;
+}
+.title {
+	color: #5C6AC4;
+}
+
+.container {
+  width: 100vh;
+  margin: 0 auto;
+}
+
+/*--------*/
+
+/*ANIMATIONS*/
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fadeIn{
+  animation: fadeIn 5s ease forwards; /* Apply the animation */
+
+}
+
+/*--------*/
+
+/*HOME*/
+
+#home{
+  padding:0 0 0 1%;
+  margin: 0 0 0 4%;
+  background-image: url('https://assets.onecompiler.app/43aghwvby/43mhu5a5c/mask.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0;
+}
+
+
+
+#home h1{
+  margin: 0;
+  padding: 60% 0 0 0;
+  font-size: 3.1vmax;
+  color: gray;
+}
+
+#home p{
+  font-size: 2.3vmax;
+  color: gray;
+  text-align: center;
+}
+
+#home span:after{
+  content: 'Specialist';
+  color: gray;
+}
+
+#home span:hover:after{
+  content: 'I Love You Jane Suede soon to be Jane Estrada';
+  color: #ff073a;
+}
+
+/*----*/
+
+/*ABOUT*/
+
+#about{
+    padding:0 0 0 120px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: gray;
+}
+
+#about h2{
+  margin:0;
+  padding: 30% 0 0 0;
+  font-size: 3em;
+  text-align: center;
+}
+
+#about p{
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+#about ul{
+  text-align: left;
+  list-style: none;
+}
+
+#about li{
+  font-size: 1em;
+}
+
+#about h2:after{
+  content:'About Me';
+}
+
+#about h2:hover:after{
+  content:'He is not what he seems...';
+  color: #FF3F33;
+}
+
+#about span:after{
+  content:'JavaScript';
+}
+
+#about span:hover:after{
+  content:'He killed someone...';
+  color: #FF3F33;
+}
+
+/*-------*/
+
+/*PROJECTS*/
+
+#projects{
+    padding:0 0 0 120px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: gray;
+    overflow-y: auto;
+}
+
+#projects h2{
+  margin:0;
+  padding: 5% 0;
+  font-size: 3em;
+  text-align: center;
+}
+
+#projects iframe{
+  height:60vh;
+}
+
+#projects img{
+  padding:5% 0;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*--------*/
+
+/*CONTACT*/
+
+#contact{
+    padding:0 120px 0 120px;
+    width: 100vw;
+    height: 90vh;
+    color: gray;
+}
+
+#contact h2{
+  padding:50px 0;
+}
+
+
+.no-style{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/*-------*/
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer{
+    padding:0 0 0 120px;
+    width: 100vw;
+    height: 10vh;
+    color: black;
+    background-color: gray;
+    text-align: center;
+    
+}
+footer p{
+  margin:0;
+  padding: 20px 0 0 0;
+  font-weight: bold;
+}
+
+/*------*/
+
+/*NAVIGATION*/
+
+.sidenav {
+  height: 100vh; /* Full height of the viewport */
+  width: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav a {
+  padding:8vh 20px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: background 0.3s;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  background-color: #575757;
+  color: #FFDEDE;
+}
+/*--------*/
